@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg,#141726,#0c0f1a);
+
+}
+
+.main-container{
+
+    width: 750px;
+    padding: 40px;
+    border-radius: 25px;
+    background: #111425;
+    box-shadow:  10px 10px 25px #070912,
+                -10px -10px 25px #1a1f33;
+
+}
+
+.main-heading{
+
+    text-align: center;
+    margin-bottom: 25px;
+     color: #c7d0ff;
+    letter-spacing: 2px;
+
+}
+
+.textInput{
+
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #111425;
+    color: #d6dcff;
+    font-size: 18px;
+    box-shadow: inset 6px 6px 12px #070912,
+                inset -6px -6px 12px #1a1f33;
+    overflow: auto;
+
+}
+
+.buttons-container{
+
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+}
+
+button{
+
+    width: 55px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #c7d0ff;
+    background: #111425;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px #070912,
+               -6px -6px 12px #1a1f33;
+    transition: 0.2s ease;
+
+}
+
+button:hover{
+
+    transform: scale(1.05);
+
+}
+
+button:active{
+
+    box-shadow: inset 6px 6px 12px #070912,
+                inset -6px -6px 12px #1a1f33;
+
+}
+
+input[type="color"]{
+
+    width: 60px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background: #111425;
+    box-shadow: 6px 6px 12px #070912,
+               -6px -6px 12px #1a1f33;
+
+}
+
+
+#fontSize{
+
+    width: 90px;
+    height: 55px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #c7d0ff;
+    background: #111425;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 6px 6px 12px #070912,
+               -6px -6px 12px #1a1f33;
+
+    transition: 0.2s ease;
+}
+
+#fontSize:hover{
+
+    transform: scale(1.05);
+
+}
+
+
+#fontSize:active{
+
+    box-shadow: inset 6px 6px 12px #070912,
+                inset -6px -6px 12px #1a1f33;
+
+}
+
+#fontSize option{
+
+    background: #111425;
+    color: #c7d0ff;
+
+}
