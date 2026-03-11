@@ -22,7 +22,7 @@
 
 ## Demo
 
-[Live Demo](https://danish-devx.github.io/Text-Editor-App/)
+[Live Demo](https://danish-devx.github.io/Word-Styler-App/)
 
 ---
 
